@@ -1,0 +1,28 @@
+.{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    float: left;
+    background-color: navy;
+    height: 50px;
+    width: 250px;
+    line-height: 50px;
+    margin-left: 5px;
+    text-align: center;
+    list-style: none;
+
+}
+
+ul li:hover{
+    background-color: aquamarine;
+    color: blue;
+}
+
+ul li> ul li{
+    display: none;
+}
+
+ul li:hover> ul li{
+    display: block;
+}
