@@ -1,0 +1,22 @@
+table{
+    margin: auto;
+    border-collapse: separate;
+    outline: blue double 10px;
+}
+tfoot{
+    background-color: blueviolet;
+    text-align: center;
+}
+tbody{
+    background-color: goldenrod;
+    text-align: center;
+    
+}
+thead{
+    background-color: royalblue;
+    font-size: 20px;
+}
+caption{
+    background-color: green;
+    font-size: 40px;
+}
